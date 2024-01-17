@@ -1,0 +1,36 @@
+h1, p, .image, .desc {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+* {
+    background-color: black;
+    color: antiquewhite;
+}
+
+.block {
+    display: block;
+    text-align: center;
+    margin: 20px;
+}
+
+.listcontainer {
+    height: 204px;
+    width: 500px;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    align-items: center;
+    background-color: rgb(66, 62, 52);
+    border-radius: 25px;
+    display: flex;
+}
+
+.flexcontainer {
+    display: flex;
+}
+
+ol, ul, li, h3 {
+    background-color: inherit;
+    border-radius: inherit;
+}
